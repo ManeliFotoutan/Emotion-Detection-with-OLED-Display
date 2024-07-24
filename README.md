@@ -15,11 +15,11 @@ The project uses OpenCV and DeepFace to perform real-time emotion detection from
 
 ### Python Script
 
-The Python script (`emotion_detection.py`) captures video from the webcam, detects faces, and analyzes emotions using DeepFace. The detected emotion is sent to the Arduino over serial communication.
+The Python script (`eye.py`) captures video from the webcam, detects faces, and analyzes emotions using DeepFace. The detected emotion is sent to the Arduino over serial communication.
 
 ### Arduino Sketch
 
-The Arduino sketch (`oled_display.ino`) receives the emotion data from the Python script and displays corresponding graphics on the OLED screen. The sketch currently supports three emotions: happy, sad, and angry.
+The Arduino sketch (`eye.ino`) receives the emotion data from the Python script and displays corresponding graphics on the OLED screen. The sketch currently supports three emotions: happy, sad, and angry.
 
 ## Adding New Emotions
 
